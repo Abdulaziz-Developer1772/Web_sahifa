@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --soya: 0 0 5px black;
+    --bg: #f4f4f4;
+    --soya2: 0 0 4px black
+
+}
+
+body {
+    background: var(--bg);
+}
+
+#header {
+    text-align: center;
+    box-shadow: var(--soya);
+    height: 310px;
+    margin-top: 20px;
+    padding: 15px 0;
+    border-radius: 10px;
+
+
+
+}
+
+.container {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.rasm {
+    width: 170px;
+    border: 3px solid green;
+    border-radius: 50%;
+}
+
+.main {
+    box-shadow: var(--soya);
+    height: 60px;
+    margin: 30px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: green;
+
+
+}
+
+.main ul {
+    text-align: center;
+
+}
+
+.main ul li {
+    display: inline;
+    margin: 15px;
+
+}
+.Asosiy{
+    box-shadow: var(--soya);
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  
+
+}
+.Asosiy p{
+    line-height: 1.5 ;
+    margin: 12px;
+}
+/* h2 {
+      margin: 20px 0;
+    
+    color: green;
+    border-bottom: 2px solid green;
+} */
+.matn{
+    background-color: yellow;
+}
+.malakalar h2,.Asosiy h2 {
+    margin: 20px 0;
+    
+    color: green;
+    border-bottom: 2px solid green;
+}
+.malakalar{
+     box-shadow: var(--soya);
+    height: auto;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  
+}
+.malakalar ul li {
+    margin: 15px;
+}
+.tajriba{
+      box-shadow: var(--soya);
+    height: auto;
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    
+  
+}
+.tajriba h2 {
+    border-bottom: 2px solid green;
+     margin: 20px 0;
+}
+.tajriba ul li{
+margin: 25px;
+}
+.education p {
+    line-height: 1.7 ;
+}
+.aloqa {
+     box-shadow: var(--soya);
+    height: auto;
+    padding: 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+     
+}
+.aloqa table tr td:nth-child(2) {
+    padding: 30px;
+    color: green;
+}
+.tanishuv input {
+   border-radius: 5px;
+}
+.tanishuv input{
+    margin-bottom: 30px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    box-shadow: var(--soya2);
+}
+.tanishuv input:active{
+    outline: 2px solid black;
+}
+.tanishuv .comment {
+    height: 90px;
+}
+.btn {
+    width: 115px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.aloqa h2 {
+      border-bottom: 2px solid green;
+}
+.footer{
+      box-shadow: var(--soya);
+    height: auto;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.footer h2,h3,p {
+    padding: 15px;
+}
